@@ -1,0 +1,56 @@
+Python
+-------
+>> It is a high-level, interpreted, OOP programming language.
+
+high-level --> human can understand 
+low-level --> machine code.
+
+Source code 
+|
+|(Compilation)(syntax check)
+|
+Byte Code (intermediate representation (0s 1s))
+|
+|(Runtime)(PVM)
+|
+Output
+
+Create Python file(.py)
+Terminal --> cmd, powershell, bash...
+command to execute py file --> python filename.py
+
+Print 
+------
+>> it shows the data in the output.
+Ex: print(data)
+
+Input 
+------
+>> it is used to prompt a value from user.
+>> It always retuns String.
+Ex: input(expStr)
+
+Syntax
+-------
+>> Grammer of python. set of rule.
+>> Case sensitive.(a is not A)
+>> Indendation Matters. (whitespace that defines block of code.)
+
+Comments 
+---------
+>> Comments are ignored by python.
+# --> single line comments
+''' ''' --> multi line comments
+>> It increases readability.
+
+Datatypes
+-----------
+Integer --> whole numbers (-1,-2,1,2,3,4)
+Float --> decimal numbers 
+str1+str2--> concatination
+String --> Sequence of characters..'' ""
+
+Boolean --> True/False
+
+Operators 
+----------
