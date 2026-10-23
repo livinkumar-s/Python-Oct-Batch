@@ -75,3 +75,58 @@ bool(obj)
 
 Operators 
 ----------
+>> it is a symbol or keyword that performs operation on values.
+
+2 - 2 = 0
+
+Arithmetic Operators 
+----------------------
++ addition 
+- sub 
+* mul 
+/ div 
+// floor div (Quotient)
+% modulus (Reminder) 1%2 --> 2*0 --> 0 --> 1
+** exponentiation (calculates power)
+
+BODMAS 
+
+Comparison Operators (return Boolean)
+---------------------------------------
+==
+!=
+<
+>
+<=
+>=
+
+Logical Operators (combine bool)
+----------------------
+and --> Both are True --> True. Otherwise --> False
+or --> Both are False --> Talse. Otherwise --> True
+not --> inverts the bool.
+
+Assignment Operators
+----------------------
+= assign 
++= add and assign 
+-= 
+*= 
+/=
+//=
+**=
+%=
+
+Bitwise Operators 
+-------------------
+
+Identity Operators 
+------------------
+
+Membership Operators 
+--------------------
+
+
+Binary system ----> 01
+Decimal Number system --> 0-9
+
