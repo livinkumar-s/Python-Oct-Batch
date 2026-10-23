@@ -39,12 +39,12 @@ print(2)'''
 # print(a)
 # print(a)
 
-# a=input("Enter Your Number: ") #"100" Type casting
+# a=int(input("Enter Your Number: ")) #"100" Type casting
 # print(a+100)
 
 
 # ==
 # print(3==3)
 # print(4==5)
-print(1+1==2)
-print(0.1+0.1==0.2)
+# print(1+1==2)
+# print(0.1 + 0.2 == 0.3)

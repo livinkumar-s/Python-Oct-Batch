@@ -43,14 +43,35 @@ Comments
 ''' ''' --> multi line comments
 >> It increases readability.
 
+Variable 
+----------
+>> it is named container that stores a data.
+>> cannot start with a numer.
+>> No reserved keyword.
+
+varname=value 
+
+Naming Rules 
+-------------
+>> can contain letters, numeric, _
+
 Datatypes
 -----------
 Integer --> whole numbers (-1,-2,1,2,3,4)
-Float --> decimal numbers 
-str1+str2--> concatination
+Float --> decimal numbers (3.14,2,22,-1.344)
+
 String --> Sequence of characters..'' ""
+str1+str2--> concatination
 
 Boolean --> True/False
+
+Type Casting 
+-------------
+int(obj) --> to integer 
+str(obj)
+float(obj)
+bool(obj)
+
 
 Operators 
 ----------
