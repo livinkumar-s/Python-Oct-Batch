@@ -119,6 +119,15 @@ Assignment Operators
 
 Bitwise Operators 
 -------------------
+>> it performs operations on individual bits of integers.
+
+& --> and
+| --> or
+~ --> not . ~n=-(n+1)
+^ --> x-or (same --> 0, diff --> 1)
+>> --> right shift. num>>pos 
+<< --> left shift. num<<pos
+
 
 Identity Operators 
 ------------------
@@ -126,7 +135,44 @@ Identity Operators
 Membership Operators 
 --------------------
 
+Control Flow 
+-------------
+1)Conditional Clause statement.
+2)Looping Statements
 
-Binary system ----> 01
-Decimal Number system --> 0-9
+Conditional Clause statement.
+------------------------------
+if clause 
+------------
+syntax:
+--------
+if cond:
+    block of code
 
+True --> executes the block of code 
+False --> skip the block
+
+elif
+------
+syntax:
+--------
+elif cond:
+    block of code 
+
+True --> executes the block of code 
+False --> skip the block
+
+else 
+-------
+syntax:
+--------
+else:
+    block of code
+False--> executes the block.
+True --> skip
+
+Nested If 
+-------------
+if cond1:
+    if cond2:
+        block of code

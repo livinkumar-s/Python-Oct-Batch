@@ -43,3 +43,12 @@ b=14
 # a**=10
 
 # print(a)
+
+# print(17&19)
+# print(15 ^ 18)
+# print(37>>3)
+# print(37<<3)
+
+# print(~13) #-14
+# print(~45) #-46
+# print(~-2) 
