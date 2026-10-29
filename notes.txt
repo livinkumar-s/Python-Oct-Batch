@@ -128,12 +128,43 @@ Bitwise Operators
 >> --> right shift. num>>pos 
 << --> left shift. num<<pos
 
+16 --> 10000 (+f)
+-16 --> 2's comp(10000) (-f)
+
+2's comp --> 1's comp + 1
+
+00 --> 0
+10, 01 --> 1
+11 --> 10
+111 --> 11
 
 Identity Operators 
 ------------------
 
 Membership Operators 
 --------------------
+
+Iterable Objects 
+-------------------
+len(iterObj) --> returns length of an iterable.
+
+iterable is an object from which python can take one element at a time. (iterable can return its members 1 by 1).
+Ex: String, List, Tuple, Dict, Set, Range..
+
+Sequence
+---------
+>> it is a type of collection whose members have specific order.. these members can be accesses using its index.
+Ex: String,List, range...
+
+Indexing/Slicing 
+-----------------
+>> accessing member of a seq using index number is indexing.
+seq[ind]
+index number starts with --> 0
+Negative Indexing --> -1
+
+Slicing 
+---------
 
 Control Flow 
 -------------
@@ -176,3 +207,36 @@ Nested If
 if cond1:
     if cond2:
         block of code
+
+Loops 
+---------
+>> it is used to execute a block of code repeatedly.
+
+While
+---------
+>> conditon based loop. 
+syntax:
+----------
+while codition:
+    block of code
+
+>> it executes the block over and over again untill the condition becomes False.
+
+For Loop 
+---------
+>> Sequence based loop.
+syntax:
+---------
+for varName in Sequence:
+    block of code
+
+Range --> range seq.
+--------------------
+range(len) --> range(5) --> [0,1,2,3,4]
+range(start, end) --> range(3,15) --> [3,4,5,6...14]
+range(start, end, step) --> range(3,15,1) --> [3,5,7,9,11,13]
+
+Control Statements of Loops 
+-------------------------------
+break ---> it stops the loop.
+continue --> it skips the current iteration.
