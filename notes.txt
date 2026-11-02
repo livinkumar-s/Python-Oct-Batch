@@ -165,6 +165,13 @@ Negative Indexing --> -1
 
 Slicing 
 ---------
+>> Extract part of a sequence.
+
+seq[strt:]
+seq[:end]
+seq[start:end]
+seq[start:end:step]
+seq[::-1]
 
 Control Flow 
 -------------
@@ -240,3 +247,50 @@ Control Statements of Loops
 -------------------------------
 break ---> it stops the loop.
 continue --> it skips the current iteration.
+
+Nested Loops 
+----------------
+>> loop statement inside another.
+
+Data Structures 
+----------------
+>> it is a way of organizing, storing and managing data.
+
+List 
+------
+>> [d1,d2......]
+>> Indexed, Ordered.
+>> It allows duplicates
+>> Mutable 
+
+In built Methods
+----------------
+.append(data) #to add an item at the end
+.insert(pos, data)
+.extend(iterable) to add multiple elements
+
+.remove(ele) first occur
+.pop(ind) 
+.pop()
+
+.index(ele) first occur
+.count(ele)
+
+.reverse()
+.sort()
+
+Tuple 
+-------
+>> (d1,d2.....)
+>> Indexed, Ordered.
+>> It allows duplicates.
+>> Immutable
+
+In built Methods 
+-------------------
+.index(ele) first occur
+.count(ele)
+
+
+Set 
+Dict 

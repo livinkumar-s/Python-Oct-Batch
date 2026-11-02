@@ -157,13 +157,36 @@
 # Iterations --> 10
 # numbers --> 0-9
 
-i=1
+# i=1 #49,50,50,50..........
 
-while i<101:
-    if i==50:
-        continue
-    print(i)
-    i+=1
+# while i<101:
+#     if i==50:
+#         i+=1
+#         continue
+#     print(i)
+#     i+=1
 
-#iterations --> 
-#Numebers --> 
+#1...49,51...10
+
+#Iterations --> Infinite
+#Numebers --> 1-49
+
+# for i in range(3): #[0,1,2]
+#     for j in range(3): #[0,1,2]
+#         print("Helo")
+#     print("Done")
+    
+
+# i=1
+# j=
+
+# h 3 d 1
+
+# for j in range(5):
+#     print("Helo")
+
+# print("Helo")
+# print("Helo")
+# print("Helo")
+# print("Helo")
+# print("Helo")
