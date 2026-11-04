@@ -53,3 +53,75 @@
 # l1=[1,2,3,34,5]
 # print(l1[2:3]) #[3]
 # print(l1[2]) #3
+
+
+# a=1,2,3,4,5 #Tuple
+# print(a)
+
+# person=("Ken",43,"FED")
+# name=person[0]
+# age=person[1]
+# role=person[2]
+
+# name,age,role=person
+
+# print(name)
+# print(age)
+# print(role)
+
+# a=10
+# b=11
+# a,b=b,a #(11,10)
+# print(a)
+# print(b)
+
+# a,b=[3,4]
+# print(a)
+# print(b)
+
+
+# Set 
+
+# s1={34,451,2,3,4,3,2,1,3,4,3,4}
+# s2={34,43,23,32,1,2,3}
+# s1[4]=45
+# s1.add(99)
+# s1.remove(451)
+# s1.clear()
+# print(s1.union(s2))
+# print(s1.intersection(s2))
+# print(s2.difference(s1)) #{}
+
+# for i in s1:
+#     print(i)
+
+
+# Dict
+
+# person={
+#     "name":"Leo",
+#     "age":23,
+#     "role":"FSD",
+#     "isMarried":True,
+#     "favFoods":["curd","chicken"],
+#     "age":56
+# }
+
+# print(person["favFoods"])
+# person["gender"]="male"
+# person.pop("isMarried")
+# print(person.keys()) #dict_keys
+# print(person.values())
+# print(person.items())
+
+# for i in person:
+#     print(person[i])
+
+# a=(1,2,3)
+
+# print(list(a))
+
+
+# a=[213,32,43,32,34,21,34,43,34,23,23]
+# print(list(set(a)))
+

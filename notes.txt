@@ -71,7 +71,10 @@ int(obj) --> to integer
 str(obj)
 float(obj)
 bool(obj)
-
+list(iterObj)
+tuple(iterObj)
+set(iter)
+dict(iter)
 
 Operators 
 ----------
@@ -138,11 +141,16 @@ Bitwise Operators
 11 --> 10
 111 --> 11
 
-Identity Operators 
+Identity Operators (Boolean)
 ------------------
+is, is not.
+
+mutable --> List, Set, Dict.
+immutable --> int, float, string, tuple, boolean...(reuse)
 
 Membership Operators 
 --------------------
+in, not in
 
 Iterable Objects 
 -------------------
@@ -291,6 +299,40 @@ In built Methods
 .index(ele) first occur
 .count(ele)
 
+Packing/Unpacking 
+-------------------
+person=("Ken",43,"FED")
+name=person[0]
+age=person[1]
+role=person[2]
 
 Set 
+----
+>> {d1,d2...}
+>> Unordered.
+>> Mutable 
+>> No Duplicates.
+
+Inbuilt methods 
+-------------------
+.add(element)
+.remove(element)
+.clear()
+
+.union(set)
+.intersection(set)
+.difference(set)
+
 Dict 
+-----
+>> {key:val, key:val...}
+>> Ordered... Not indexed
+>> values can be duplicated. But keys.
+>> Mutable.
+
+In built Methods 
+-------------------
+.pop(key)
+.keys()
+.values()
+.items()
