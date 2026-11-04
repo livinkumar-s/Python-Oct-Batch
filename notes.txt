@@ -336,3 +336,49 @@ In built Methods
 .keys()
 .values()
 .items()
+
+Functions 
+----------
+>> Reusable Block of code that performs an operation.
+
+In built Functions --> print, input, len, id, type.....
+User Defined Functions --> 
+
+Syntax:
+--------
+def fnName():
+    block of code
+
+Calling or Invoking --> fnName()
+
+Parameters and Arguments 
+-------------------------
+P -> variables you are creating during the function defenition
+A -> values you are passing to a function during the Invoking
+
+Types
+------
+Positional Arguments 
+-----------------------
+>> Order matters
+
+Keyword Arguments 
+--------------------
+>> args are passed using Parameters name
+
+Default Parameter 
+-------------------
+>> assigning default value to a Parameter during the func defenition.
+
+Variable Length Argument 
+-------------------------
+>> *paramaterName --> Tuple
+>> **paramaterName --> dict
+
+Return Keyword 
+------------------
+>> Stop a function
+>> It returns a value to the caller
+
+Scopes 
+--------
