@@ -77,3 +77,80 @@
 # print(a)
 
 # print()
+
+# a=10
+
+# def hi():
+#     print("Hi Leo!")
+
+# a=10  #Global Scoped variable
+
+# def dummy():
+#     print(a)
+#     def greet():
+#         print("Hello")
+#         print(a)
+#     greet()
+
+# dummy()
+# print(a)
+# greet()
+
+
+# age=17
+
+# def inc():
+#     global age
+#     age+=1 # var age (it is looking for global var)
+#     # print(age)
+
+# inc()
+# inc()
+# inc()
+# print(age)
+
+# def grandfather():
+#     a=10
+#     def father():
+#         def child():
+#             def grandchild():
+#                 nonlocal a
+#                 a+=10 #looking for local var a
+#             grandchild()
+#         child()
+#     father()
+#     print(a)
+
+# grandfather()
+
+
+l1=[
+    1,
+    2,
+    3,
+    [
+        "Four",
+        "Five",
+        "Six",
+        [
+            "Seven",
+            "Eight",
+            "Nine"
+        ]
+    ]
+]
+
+# print(len(l1))
+# print(l1[4])
+# print(l1[-1][-1][-1][-1])
+
+# person={
+#     "name":"Leo",
+#     "age":23,
+#     "role":"FSD",
+#     "isMarried":True,
+#     "favFoods":["curd","chicken"],
+#     "age":56
+# }
+
+# print(person["favFoods"][1])

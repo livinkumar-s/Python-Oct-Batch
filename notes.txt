@@ -171,6 +171,10 @@ seq[ind]
 index number starts with --> 0
 Negative Indexing --> -1
 
+Nested indexing
+-----------------
+>> accessing an element from a datastructure that is stored in another datastructure using indexing.
+
 Slicing 
 ---------
 >> Extract part of a sequence.
@@ -380,5 +384,34 @@ Return Keyword
 >> Stop a function
 >> It returns a value to the caller
 
-Scopes 
---------
+Scope
+-------
+>> Region of a program where a name can be accessed.
+name --> variables, functions, class...
+LEGB
+
+Local Scope
+--------------
+>> a name declared inside a function is a local scoped.
+>> it can be accessed only within that function.
+
+Global Scope 
+--------------
+>> a name declared outside of all functions.
+>> It can be accessed throughout the program.
+
+global --> to modify a global scoped variable inside a function.
+
+Enclosing Scope 
+-----------------
+>> a name created inside an outer function is accessed inside inner function.
+
+nonlocal
+
+grandfather(a) --> father --> child --> grandchild
+                                  (can it modify a?)
+
+Built-in scope 
+------------------
+>> Built-in scope contains predefined names provided by python. 
+print, input...
